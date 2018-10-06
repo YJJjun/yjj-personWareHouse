@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="managerInterface:war exploded">
+    <output-path>$PROJECT_DIR$/taotaoManager/managerInterface/target/managerInterface</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="managerInterface" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="managerPojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="managerPojo" />
+          </element>
+          <element id="archive" name="taotaoCommon-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="taotaoCommon" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/taotaoManager/managerInterface/target/managerInterface/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="managerInterface/web/Web" />
+    </root>
+  </artifact>
+</component>

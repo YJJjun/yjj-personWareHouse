@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="managerDao:war exploded">
+    <output-path>$PROJECT_DIR$/taotaoManager/managerDao/target/managerDao</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="managerDao" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="managerPojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="managerPojo" />
+          </element>
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.6" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
+          <element id="archive" name="taotaoCommon-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="taotaoCommon" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/taotaoManager/managerDao/target/managerDao/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="managerDao/web/Web" />
+    </root>
+  </artifact>
+</component>
