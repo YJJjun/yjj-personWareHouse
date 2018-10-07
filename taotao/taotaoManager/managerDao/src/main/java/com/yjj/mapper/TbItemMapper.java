@@ -1,9 +1,13 @@
 package com.yjj.mapper;
 
+
+import java.util.List;
+
+import jdk.nashorn.internal.ir.annotations.Reference;
+import org.apache.ibatis.annotations.Param;
 import com.yjj.pojo.TbItem;
 import com.yjj.pojo.TbItemExample;
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
+
 
 public interface TbItemMapper {
     long countByExample(TbItemExample example);

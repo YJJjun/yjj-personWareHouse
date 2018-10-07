@@ -5,6 +5,7 @@ import com.yjj.pojo.TbContentCategoryExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+
 public interface TbContentCategoryMapper {
     long countByExample(TbContentCategoryExample example);
 
