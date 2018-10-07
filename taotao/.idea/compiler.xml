@@ -23,6 +23,7 @@
       <module name="taotaoManager" target="1.8" />
       <module name="taotaoManagerWeb" target="1.8" />
       <module name="taotaoParent" target="1.8" />
+      <module name="tool" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
